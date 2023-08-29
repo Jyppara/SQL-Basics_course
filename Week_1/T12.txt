@@ -1,0 +1,32 @@
+// Vaihe vaiheelta näytetty miten evaluointi tapahtuu
+
+FROM product
+
+id  name                       category       weight  energy
+--  -------------------------  -------------  ------  ------
+1   Fazerina                   chocolate bar  37      548
+2   Jim                        chocolate bar  14      366
+3   Salta Katten               candy bag      140     351
+4   Dumle mix                  chocolate bag  220     474
+5   Tupla Double Layer Banana  chocolate bar  48      471
+6   Bilar Original             candy bag
+7   Sisu Horna                 candy bag      40      370
+8   Center Toffeerulla                        78      482
+
+WHERE category <> 'chocolate bar';
+
+id  name                       category       weight  energy
+--  -------------------------  -------------  ------  ------
+3   Salta Katten               candy bag      140     351
+6   Bilar Original             candy bag
+7   Sisu Horna                 candy bag      40      370
+8   Center Toffeerulla                        78      482
+
+SELECT name
+
+name                      
+-------------------             
+Salta Katten 
+Bilar Original             
+Sisu Horna                 
+Center Toffeerulla   

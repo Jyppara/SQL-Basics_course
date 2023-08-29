@@ -1,0 +1,6 @@
+A) FALSE // Nimi ei ole Jim
+B) TRUE // Nimi on jotain muuta kuin Jim
+C) UNKOWN // Vertaillaan tyhjäarvoa
+D) TRUE // Id ei ole 8
+E) TRUE // weight on tyhjäarvo
+F) FALSE // weight on tyhjäarvo
