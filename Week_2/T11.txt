@@ -1,0 +1,44 @@
+A) 
+    SUORITTAA. 
+    Voidaan muuttaa jäätelön valmistajaa.
+
+B) 
+    EI SUORITA:
+            Runtime error: NOT NULL constraint failed: 
+            ice_cream.manufacturer_id (19)
+    Taulun luontilauseessa on "manufacturer_id INT NOT NULL", 
+    joten se ei hyväksy tyhjäarvoja
+
+C)
+    EI SUORITA:
+        "Runtime error: FOREIGN KEY constraint failed (19)"
+    manufacturer_id arvoksi ei käy luku 9, sillä 
+    manufacturer taulussa ei ole yhdeksää valmistajaa.
+
+D)
+    EI SUORITA:
+        "Runtime error: FOREIGN KEY constraint failed (19)"
+    ingredient_id ei voi muuttaa, koska contains taulussa viitataan siihen.
+
+E) 
+    SUORITTAA.
+    "Dark chocolate" ei ole viitattu muissa tauluissa, joten se 
+    ei riko viite-eheyttä. Aines-osan id:tä voidaan vielä siis vaihtaa.
+
+F)
+    SUORITTAA.
+    ice_cream_name ei ole avain, joten sitä voi muuttaa.
+
+G)
+    EI SUORITA:
+        "Runtime error: FOREIGN KEY constraint failed (19)"
+    Valmistajaa ei voida poistaa, koska sitä on viitattu muissa tauluissa.
+    
+H)
+    EI SUORITA:
+        "Runtime error: UNIQUE constraint failed: contains.ice_cream_id, contains.ingredient_id (19)"
+    Ei voi laittaa uudestaan samoja contains.ice_cream_id, contains.ingredient_id arvoja.
+
+I)
+    SUORITTAA.
+    Kysely ei riko contains taulun viite-eheyttä. 
