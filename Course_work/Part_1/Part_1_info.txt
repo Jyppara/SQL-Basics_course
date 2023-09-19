@@ -1,0 +1,37 @@
+1 Sovellusalueen kuvaus (I-osa)
+
+Liikuntakeskuksen tietokantaan halutaan tallentaa tietoja ohjatusta ryhmäliikunnasta:
+ryhmäliikuntatunneista, kategorioista, liikunnanohjaajista ja saleista.
+
+Kustakin ryhmäliikuntatunnista tarvitaan tunnus, nimi, kuvaus, kesto minuutteina ja vaikeustaso (1-4).
+Ryhmäliikuntatunnin tunnus on keinotekoinen, kokonaislukutyyppinen tunnus, jonka avulla
+ryhmäliikuntatunnit voidaan yksilöidä. Myös ryhmäliikuntatunnin nimi on yksilöivä.
+
+Kategorioista tarvittavia tietoja ovat tunnus ja nimi. Kategorian tunnus on keinotekoinen,
+kokonaislukutyyppinen tunnus, jonka avulla kategoriat voidaan yksilöidä. Myös kategorian nimi on yksilöivä.
+Ryhmäliikuntatunti kuuluu aina yhteen kategoriaan ja samaan kategoriaan voi kuulua useita
+ryhmäliikuntatunteja. Esimerkiksi Joogan perusteet -niminen ryhmäliikuntatunti voisi kuulua Kehonhuoltonimiseen kategoriaan.
+
+Kustakin liikunnanohjaajasta tarvitaan tunnus (keinotekoinen, kokonaislukutyyppinen yksilöivä tunnus), nimi
+ja syntymäaika. Tietokannasta on selvittävä, mitä ryhmäliikuntatunteja kukin ohjaaja voi ohjata (on pätevä
+ohjaamaan). Yksi ohjaaja voi ohjata useita ryhmäliikuntatunteja ja samaa ryhmäliikuntatuntia voi ohjata
+usea ohjaaja.
+
+Lisäksi tietokannasta on löydyttävä tiedot lukujärjestyksestä: minä viikonpäivinä ja mihin kellonaikaan
+ryhmäliikuntatunteja pidetään. Lukujärjestyksessä olevista tunneista tarvittavia tietoja ovat viikonpäivä,
+alkamisajankohta (kellonaika), päättymisajankohta (kellonaika) ja maksimiosallistujalukumäärä. Oletetaan,
+että samasta ryhmäliikuntatunnista pidetään vain yksi toteutus samana viikonpäivänä samaan kellonaikaan.
+Lukujärjestyksessä olevat tunnit voidaan siis yksilöidä ryhmäliikuntatunnin, viikonpäivän ja
+alkamisajankohdan yhdistelmällä. Yhden lukujärjestyksessä olevan tunnin ohjaa aina yksi ohjaaja ja sama
+ohjaaja voi ohjata useita lukujärjestyksessä olevia tunteja.
+
+Saleista tarvittavia tietoja ovat tunnus, nimi ja paikkalukumäärä. Salin tunnus on keinotekoinen,
+kokonaislukutyyppinen tunnus, jonka avulla salit voidaan yksilöidä. Myös salin nimi on yksilöivä.
+Lukujärjestyksessä oleva tunti pidetään aina yhdessä salissa, kun taas samassa salissa voidaan pitää
+monta lukujärjestyksessä olevaa tuntia.
+
+Lukumääräsuhteet ja osa osallistumisrajoitteista on annettu yllä kuvatussa. Loput rajoitteet on mietittävä
+itse. Kuvaus on yksinkertaistettu ja kattaa vain osan sovellusalueesta, jotta työn pystyy tekemään
+opintojaksolla opittavilla taidoilla ja kohtuullisella työmäärällä. Kuvauksesta puuttuvat kokonaan esim.
+asiakkaiden tiedot ja heidän osallistumisensa tunneille tiettyinä päivämäärinä. Syys-, kevät- ja kesäkausille
+on yleensä omat ”lukujärjestyksensä”, mutta tämäkin on jätetty tehtävänannosta tarkoituksella pois.

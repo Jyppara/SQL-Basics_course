@@ -1,0 +1,9 @@
+-- Anna seuraavien kyselyn WHERE-osan ehtojen totuusarvot, kun ehtoja sovelletaan niiden alla annetun vuori-nimisen taulun rivin tietoihin.
+
+A)  False
+B)  Unknown
+C)  True
+E)  False
+F)  Unknown
+G)  Unknown
+H)  True
