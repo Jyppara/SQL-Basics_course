@@ -1,0 +1,55 @@
+2 Tauluihin lisättävät esimerkkitiedot (II-osa)
+
+Esimerkkitietoja
+Alla on annettu joitakin esimerkkitietoja. Keinotekoisten tunnusten arvot on keksittävä itse.
+
+Kategorioita
+• Lihaskunto
+• Kehonhuolto
+• Spinning
+
+	Ryhmäliikuntatunteja
+Alla on annettu ryhmäliikuntatunnin nimi, kuvaus, kesto minuutteina ja vaikeustaso
+Lihaskunto-kategoriaan kuuluvia
+• Muokkaus, Muokataan lihaksia, 45, 2
+Kehonhuolto-kategoriaan kuuluvia
+• Joogan perusteet, Opetellaan joogaa, 50, 1
+• Jooga 1, Jatketaan joogaamista, 50, 2
+• Pilates 1, Opetellaan pilatesta, 60, 2
+Spinning-kategoriaan kuuluvia
+• Spinning alkeet, Poljetaan, 60, 1
+• Spinning pro, Raskaita osuuksia ja tiukkoja spurtteja, 80, 4
+
+	Ohjaajia
+Alla on annettu ohjaajan nimi ja syntymäaika
+• Elisa Markkanen, 1996-01-21
+o Voi ohjata ryhmäliikuntatunteja Jooga 1, Spinning alkeet ja Spinning pro
+• Eero Ilonen, 1988-03-14
+o Voi ohjata ryhmäliikuntatunteja Joogan perusteet, Jooga 1, Pilates 1
+• Mikko Kontinen, 2000-11-01
+o Voi ohjata ryhmäliikuntatunteja Spinning alkeet ja Spinning pro
+
+	Saleja
+Alla on annettu salin nimi ja paikkalukumäärä
+• Sali 1, 25
+• Spinning-sali, 20
+• Sali 3, 20
+Tietokantojen perusteet / Harjoitustyö 3/3
+
+	Pidettäviä tunteja (lukujärjestystunteja)
+• Jooga 1 pidetään ma klo 8:10-9:00 salissa ”Sali 3”. Tunnille mahtuu 10 joogaajaa. Tunnin
+ohjaa Elisa Markkanen.
+• Jooga 1 pidetään ma klo 13:00-13:50 salissa ”Sali 1”. Tunnille mahtuu 15 joogaajaa. Tunnin
+ohjaa Elisa Markkanen.
+• Jooga 1 pidetään ma klo 20:10-21:00 salissa ”Sali 3”. Tunnille mahtuu 10 joogaajaa. Tunnin
+ohjaa Elisa Markkanen.
+• Jooga 1 pidetään ti klo 8:10-9:00 salissa ”Sali 1”. Tunnille mahtuu 15 joogaajaa. Tunnin ohjaa
+Eero Ilonen.
+• Pilates 1 pidetään ma klo 8:00-9:00 salissa ”Sali 1”. Tunnille mahtuu 15 pilateksen harrastajaa.
+Tunnin ohjaa Eero Ilonen.
+• Spinning pro pidetään ma klo 7:00-8:20 salissa ”Spinning-sali”. Tunnille mahtuu 20 pyöräilijää.
+Tunnin ohjaa Mikko Kontinen.
+• Spinning alkeet pidetään ma klo 10:45-11:45 salissa ”Spinning-sali”. Tunnille mahtuu 20
+pyöräilijää. Tunnin ohjaa Mikko Kontinen.
+• Spinning pro pidetään pe klo 14:00-15:20 salissa ”Spinning-sali”. Tunnille mahtuu 20
+pyöräilijää. Tunnin ohjaa Elisa Markkanen.
